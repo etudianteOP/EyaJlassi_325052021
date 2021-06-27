@@ -413,8 +413,8 @@
    .header2 h1 {
       
      font-family: 'Shrikhand';
-     font-size: 2.7em;
-     margin-right: 80px;
+     font-size: 2.2em;
+     margin-right: 20px;
      text-align: center;
    }
    .header2 a {
@@ -1348,26 +1348,19 @@ label {
      
   }
   .header2 h1 {
-     
+    width: 100px;
+    font-size: 1.6em;
+    margin-left: 50px;
     font-family: 'Shrikhand';
-    width: 340px;
-    font-size: 2.6em;
-    margin-left: 0px;
    text-align: center;
   }
   .header2 a {
     position: absolute;
-    left: 1.8rem;
+    left: 1.5rem;
     font-size: x-large;
-    text-align: center;
+    text-align: start;
   }
-  .header2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-   
-  }
+  
   
   /* -----fin de la mise en page et header-----*/
   
@@ -2280,8 +2273,8 @@ label {
 .header2 h1 {
    
   font-family: 'Shrikhand';
-  font-size: 2.7em;
-  margin-right: 220px;
+  font-size: 2.5em;
+  margin-right: 280px;
   text-align: center;
 }
 .header2 a {
@@ -2771,7 +2764,7 @@ li {
 
 
 
-}
+
 
 
 
