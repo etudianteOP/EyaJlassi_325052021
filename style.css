@@ -1185,6 +1185,18 @@ line-height: 5px;
 
   
 }
+.card1 .stickers{
+  position:absolute;
+  left:450px;
+  width: 60px;
+  background: #99e2d0;
+  color: #359c83;
+  font-weight: normal;
+  padding: 10px;
+  border-radius: 3%;
+  margin: 1rem;
+
+}
 
 .card-image img{
   border-top-left-radius: 20px;
