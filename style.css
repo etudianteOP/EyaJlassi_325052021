@@ -5,9 +5,9 @@
   .body1
   {
      font-family: 'Roboto';
-     margin-left: 15px;
-     margin-right: 15px;
-     width: 660px;
+     margin-left: 5px;
+     margin-right: 5px;
+     width: 680px;
      
   }
   .loader {
@@ -87,25 +87,25 @@
      font-size: 22px;
      width: 200px;
      font-size: 1.2em;
-     margin-left: 200px;
+     margin-left: 240px;
  }
  
  
  #bloc_page{
      flex-direction: column;
      text-align: center;
-     width: 630px;
+     width: 669px;
      height: 320px;
      background-color:#F2F2F2;
-     margin-left: 10px;
-     margin-right: 10px;
+     margin-left: 5px;
+     margin-right: 5px;
     
      
  }
  form{
      background-color: rgb(231, 231, 231);
      border: solid  rgb(231, 231, 231);
-     width: 623px;
+     width: 662px;
      height: 40px;
      box-shadow: 2px 2px 2px rgb(173, 167, 167) ;
     
@@ -114,8 +114,8 @@
     
      color: hsl(204, 8%, 12%);
      padding-bottom: 0px;
-     padding-right: 10px;
-     padding-left: 80px;
+     margin-left: 40px;
+     padding-left: 70px;
      padding-top: 12px;
      
  }
@@ -127,18 +127,19 @@
      padding-left: 0px;
      padding-right: 0px;
      margin-right: 5px;
+     margin-left: 30px;
  }
  #bloc_page h2{
-    width: 350px;
+    width: 250px;
     text-align: center;
-    margin-left: 130px;
+    margin-left: 200px;
  }
  #bloc_page p{
     width: 350px;
     font-size: 1.2em;
     color: rgb(110, 105, 105);
     text-align: center;
-    margin-left: 130px;
+    margin-left: 160px;
     margin-right: 70px;
     line-height: 20px;
  }
@@ -151,7 +152,7 @@
     color: white;
     border: none;
     box-shadow: 3px 3px 6px rgb(173, 167, 167);
-    
+    margin-top: 20px;
  }
  .explo:hover {
      background: linear-gradient(#ff93e1, #a16be0);
@@ -196,7 +197,7 @@
      height: 4.5rem;
      box-shadow: 5px 5px 5px rgb(0 0 0 / 15%);
      list-style-type:none;
-     width: 105%;
+     width: 110%;
   }
   
  ol li::before {
@@ -228,7 +229,7 @@
  }
  
  #resto{
- width: 640px;
+ width: 670px;
  height: 1600px;
  background-color: #F2F2F2 ;
  margin-top: 150px;
@@ -241,11 +242,11 @@
  border: solid 1px #e6e1e1;
  border-radius: 20px;
  background-color: white;
- width: 500px;
+ width: 580px;
  height: 350px;
  box-shadow: 3px 3px 6px rgb(173, 167, 167);
  margin-top: 0px;
- margin-left: 30px;
+ margin-left: 10px;
  margin-bottom: 20px;
  line-height: 5px;
  }
@@ -253,16 +254,17 @@
   position:absolute;
   background: #99e2d0;
   color: #359c83;
-  font-weight: 500;
   padding: 15px;
   border-radius: 3%;
-  margin-left: 90px;
+  right: 0px;
+  left: 500px;
+  width: 60px;
      
  }
  .card-image img{
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
-     width: 500px;
+     width: 580px;
      height: 250px;
      padding-left: 0px;
      padding-right: 0px;
@@ -318,7 +320,7 @@
    position: relative;
    z-index: 1;
    margin-top: 20px;
-   margin-left: 200px;
+   margin-left: 250px;
  }
  [for=toggle-heart] .testr,
  [for=toggle-heart2] .testr,
@@ -360,7 +362,7 @@
  
  
  #sec-ft{
-     width: 640px;
+     width: 670px;
      height: 200px;
      background-color:rgb(61, 60, 60);
      margin:0;
@@ -396,38 +398,42 @@
  
  
  
- /* -----les menus-----*/
+ /* -----les menus version mobile-----*/
  
  /* -----mise en page et header-----*/
  
- .body2 {
-   font-family: 'Roboto';
-   margin-left: 0px;
-   background-color: #F2F2F2;
+ .body1 {
+  font-family: 'Roboto';
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 680px;
  }
  .fa-arrow-left:before {
    content: "\f060";
    color: black;
     
  }
+
  .header2 h1 {
     
    font-family: 'Shrikhand';
-   font-size: 2.2em;
-   margin-right: 20px;
-   text-align: center;
+   font-size: 2.3em;
+   right: 120px;
+   left: 0px;
+   padding-left: 0px;
+   
  }
  .header2 a {
    position: absolute;
    left: 1.5rem;
    font-size: x-large;
    
+   
  }
  .header2 {
    display: flex;
    align-items: center;
-   justify-content: space-between;
-   text-align: center;
+   
   
  }
  
@@ -438,13 +444,13 @@
  
  .main-menu{
      width: 600px;
-    
+     background-color: #F2F2F2;
  }
  
  .main-menu img{
     
      width: 603px;
-     height: 230px;
+     height: 280px;
      object-fit: cover;
  
  }
@@ -453,7 +459,7 @@
    display: flex;
    justify-content: space-between;
    padding: 2rem 2rem 1rem 1rem;
-   width: 555px;
+   width: 554.1px;
    margin: 0px;
    justify-content: space-between;
    position: relative;
@@ -462,10 +468,10 @@
    background-color: #F2F2F2;
    z-index: 1;
    font-family: Shrikhand;
-   letter-spacing: 0.008rem;
-   font-size: 1.3em;
+   letter-spacing: 0.01rem;
+   font-size: 1.2em;
    }
- 
+   
  
  /* -----fin de la mise en page de menu + images + titre-----*/
  
@@ -489,6 +495,7 @@
  }
  #menu-entree ul {
  display: flex;
+ 
  flex-direction: column;
  list-style-type: none;
  padding: 0;
@@ -988,7 +995,7 @@ html{
 header{
   font-family: 'Shrikhand';
   font-size: 35px;
-  width: 1024x;
+  width: 1024;
   font-size: 1.6em;
   margin-left:450px ;
 }
@@ -997,7 +1004,7 @@ header{
 #bloc_page{
   flex-direction: column;
   text-align: center;
-  width: 100%;
+  width: 100.5%;
   margin-left: 0px;
   height: 300px;
   background-color:#F2F2F2;
@@ -1027,20 +1034,20 @@ form{
   font-size: 1em;
   color: rgb(49, 46, 46);
   padding-left: 20px;
-  margin-right: 80px;
+  margin-right: 60px;
   
 }
 #bloc_page h2{
  width: 250px;
  text-align: center;
- margin-left: 440px;
+ margin-left: 470px;
 }
 #bloc_page p{
  width: 950px;
  font-size: 1.2em;
  color: rgb(110, 105, 105);
  text-align: center;
- margin-left: 95px;
+ margin-left: 110px;
  
  line-height: 20px;
 }
@@ -1200,7 +1207,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 margin-left: 0px;
-width: 100%x;
+width: 100%;
 
 }
 
@@ -1343,7 +1350,7 @@ margin-left: 170px;
  
  .body2 {
   font-family: 'Roboto';
-  margin-left: 30px;
+  margin-left: 0px;
   background-color: #F2F2F2;
 }
 .fa-arrow-left:before {
@@ -1371,7 +1378,7 @@ margin-left: 170px;
 /* -----mise en page de menu + images + titre-----*/
 
 .main-menu{
-  width: 1140px;
+  width: 100%;
  margin-left: 0px;
  
 
@@ -1379,7 +1386,7 @@ margin-left: 170px;
 
 .main-menu img{
  background-color: white;
-  width: 1220px;
+  width: 100%;
   height: 330px;
   object-fit: cover;
 }
@@ -1388,7 +1395,7 @@ margin-left: 170px;
 display: flex;
 justify-content: space-between;
 padding: 2rem 2rem 1rem 1rem;
-width: 1180px;
+width: 96.2%;
 margin: 0px;
 justify-content: space-between;
 position: relative;
@@ -1783,7 +1790,7 @@ input {
  
 .btn {
 border-radius: 30px;
-margin-left: 450px;
+margin-left: 550px;
 margin-top: 50px;
 width: 200px;
 height: 50px;
@@ -1806,7 +1813,7 @@ color:white;
 /* -----footer----- */
 
 #sec-ft2{
-width: 1170px;
+width: 100%;
 height: 200px;
 margin-left: 0px;
 background-color:rgb(61, 60, 60);
@@ -2117,14 +2124,16 @@ margin-bottom: 20px;
 line-height: 5px;
 }
 .stickers {
-position:absolute;
-background: #99e2d0;
-color: #359c83;
-font-weight: 500;
-padding: 15px;
-border-radius: 3%;
-margin-left: 90px;
-}
+  position:absolute;
+  background: #99e2d0;
+  color: #359c83;
+  padding: 15px;
+  border-radius: 3%;
+  right: 0px;
+  left: 600px;
+  width: 60px;
+     
+ }
 
 .card-image img{
 border-top-left-radius: 20px;
@@ -2764,5 +2773,3 @@ input {
 }
     /*-----fin footer-----*/
 }
-
-
