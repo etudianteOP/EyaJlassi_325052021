@@ -144,24 +144,22 @@
     line-height: 20px;
  }
  .explo{
-    border-radius: 30px;
-    width: 200px;
-    height: 50px;
-    padding: 10px;
-    background: linear-gradient(#ff79da, #9356dc);
-    color: white;
-    border: none;
-    box-shadow: 3px 3px 6px rgb(173, 167, 167);
-    margin-top: 20px;
- }
- .explo:hover {
-     background: linear-gradient(#ff93e1, #a16be0);
-     box-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
- }
- .explo a{
-     text-decoration: none;
-     color:white;
- }
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  background: linear-gradient(#ff79da, #9356dc);
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 6px rgb(173, 167, 167);
+  margin-top: 20px;
+}
+.explo:hover {
+   background: linear-gradient(#ff93e1, #a16be0);
+   box-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
+   cursor:pointer;
+}
+
  
  #bloc_fonc{
  
@@ -290,15 +288,17 @@
      margin-left: 20px;
  }
  
- #parttwo{
+ #parttwo1, #parttwo2, #parttwo3, #parttwo4{
+  display: flex;
+  }{
      display: flex;
  }
  #bloc-resto{
      margin-left: 40px;
  
  }
- #first{
-   width: 260px;
+ #first1, #first2, #first3, #first4{
+  width: 260px;
  }
  .card-title{
      margin-right: 0px;
@@ -995,7 +995,6 @@ html{
 header{
   font-family: 'Shrikhand';
   font-size: 35px;
-  width: 1024;
   font-size: 1.6em;
   margin-left:450px ;
 }
@@ -1067,11 +1066,9 @@ form{
 .explo:hover {
   background: linear-gradient(#ff93e1, #a16be0);
   box-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
+  cursor: pointer;
 }
-.explo a{
-  text-decoration: none;
-  color:white;
-}
+
 #bloc_fonc{
  
 width: 90%;
@@ -1231,13 +1228,13 @@ line-height: 5px;
 margin-left: 20px;
 }
 
-#parttwo{
+#parttwo1, #parttwo2, #parttwo3, #parttwo4{
 display: flex;
 }
 
-#first{
-width: 260px;
-}
+#first1, #first2, #first3, #first4{
+  width: 260px;
+  }
 .card-title{
 margin-right: 10px;
 }
@@ -2037,11 +2034,9 @@ box-shadow: 3px 3px 6px rgb(173, 167, 167);
 .explo:hover {
  background: linear-gradient(#ff93e1, #a16be0);
  box-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
+ cursor: pointer;
 }
-.explo a{
- text-decoration: none;
- color:white;
-}
+
 
 #bloc_fonc{
 
@@ -2171,14 +2166,16 @@ line-height: 5px;
 margin-left: 20px;
 }
 
-#parttwo{
+#parttwo1, #parttwo2, #parttwo3, #parttwo4{
+  display: flex;
+  }{
 display: flex;
 }
 #bloc-resto{
 margin-left: 40px;
 
 }
-#first{
+#first1, #first2, #first3, #first4{
 width: 260px;
 }
 .card-title{
