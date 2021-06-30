@@ -1826,7 +1826,6 @@ width: 100%;
 height: 200px;
 margin-left: 0px;
 background-color:rgb(61, 60, 60);
-
 color: white;
 }
 #sec-ft2 h4{
@@ -1841,20 +1840,17 @@ padding-bottom: 0px;
 #list1 li a {
 text-decoration: none;
 color:white;
-
-
 }
 #sec-ft2 li{
-
 list-style-type: none;
-
+width: 190px;
 }
 #list1{
 margin-left: 5px;
 display: flex;
 }
 #list22 li{
-margin-right: 90px;
+margin-right: 170px;
 
 }
 #list22 i{
@@ -1869,10 +1865,12 @@ margin-top: 15px;
 
 #list33{
 display: flex;
+width: 250px;
 }
 #list33 p{
-margin-right: 10px;
-margin-left: 30px;
+margin-right: 5px;
+margin-left: 10px;
+width: 160px;
 }
 
 }
