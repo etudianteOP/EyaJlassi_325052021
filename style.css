@@ -294,9 +294,7 @@ margin-left: 240px;
  
  #parttwo1, #parttwo2, #parttwo3, #parttwo4{
   display: flex;
-  }{
-     display: flex;
- }
+  }
  #bloc-resto{
      margin-left: 40px;
  
@@ -424,7 +422,7 @@ margin-left: 240px;
    font-size: 2.3em;
    right: 120px;
    left: 0px;
-   margin-left: 420px;
+   margin-left: 400px;
 
    
  }
@@ -2174,9 +2172,7 @@ margin-left: 20px;
 
 #parttwo1, #parttwo2, #parttwo3, #parttwo4{
   display: flex;
-  }{
-display: flex;
-}
+  }
 #bloc-resto{
 margin-left: 40px;
 
