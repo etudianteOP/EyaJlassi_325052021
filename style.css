@@ -10,6 +10,8 @@
      width: 680px;
      
   }
+  /* -----LOADER-----*/
+  /* -----LOADER-----*/
   .loader {
      position: fixed;
      display: flex;
@@ -25,8 +27,6 @@
      height: 100%;
      animation: stop 3s ease forwards;
    }
- 
- 
    .lds-facebook {
      display: inline-block;
      position: relative;
@@ -147,6 +147,8 @@ margin-left: 240px;
     margin-right: 70px;
     line-height: 20px;
  }
+                              /* -----BUTTON EXPLO-----*/
+                             /* -----BUTTON EXPLO-----*/
  .explo{
   border-radius: 30px;
   width: 200px;
@@ -159,34 +161,31 @@ margin-left: 240px;
   margin-top: 20px;
 }
 .explo:hover {
-   background: linear-gradient(#ff93e1, #a16be0);
-   box-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
-   cursor:pointer;
+  background: linear-gradient(#ff93e1, #a16be0);
+  box-shadow: 5px 5px 5px rgb(0 0 0 / 25%);
+  cursor: pointer;
 }
 
- 
  #bloc_fonc{
  
-     width: 550px;
-     height: 200px;
-     background-color:white;
-     
- 
+ width: 550px;
+ height: 200px;
+ background-color:white;
  }
  #Fonctionnement h2{
-     padding-left: 20px;
+  padding-left: 20px;
  }
  
  
  .fa, .fas {
-     font-family: "Font Awesome 5 Pro";
-     font-weight: 900;
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
  }
  .fa-mobile-alt:before {
-     content: "\f3cd";
+  content: "\f3cd";
  }
- 
- 
+                       /* -----PARTIE Fonctionnement-----*/
+                      /* -----PARTIE Fonctionnement-----*/
   ol li {
      counter-increment: li;
      background: #f6f6f6;
@@ -200,11 +199,12 @@ margin-left: 240px;
      box-shadow: 5px 5px 5px rgb(0 0 0 / 15%);
      list-style-type:none;
      width: 110%;
+     cursor: pointer;
   }
   
  ol li::before {
      content: counter(li);
-     color: white;
+     color:white;
      background-color: #9356dc;
      display: flex;
      align-items: center;
@@ -214,9 +214,10 @@ margin-left: 240px;
      height: 1.4rem;
      margin-left: -0.7rem;
  }
+
  ol li i {
      padding: 0rem 1.5rem 0rem 1.5rem;
-     color: grey;
+     color:gray;
  }
  ol li:hover i {
      color: #9356dc;
@@ -229,7 +230,9 @@ margin-left: 240px;
  ol li:hover a {
      color: #9356dc;
  }
- 
+                   /* -----RESTO-----*/
+                  /* -----RESTO-----*/
+
  #resto{
  width: 670px;
  height: 1600px;
@@ -252,6 +255,7 @@ margin-left: 240px;
  margin-bottom: 20px;
  line-height: 5px;
  }
+                   /* -----NOUVEAU-----*/
  .stickers {
   position:absolute;
   background: #99e2d0;
@@ -263,6 +267,7 @@ margin-left: 240px;
   width: 60px;
      
  }
+                /* -----NOUVEAU-----*/
  .card-image img{
      border-top-left-radius: 20px;
      border-top-right-radius: 20px;
@@ -274,12 +279,10 @@ margin-left: 240px;
      object-fit: cover;
  }
  #resto a{
-     text-decoration: none;
-     color: black;
-    
+ text-decoration: none;
+ color: black;
+   
  }
- 
-
  h3 {
    display: block;
    font-size: 1.30em;
@@ -288,15 +291,15 @@ margin-left: 240px;
  }
   
   #bloc-resto p{
-     line-height: 5px;
-     margin-left: 20px;
+  line-height: 5px;
+  margin-left: 20px;
  }
  
  #parttwo1, #parttwo2, #parttwo3, #parttwo4{
   display: flex;
   }
  #bloc-resto{
-     margin-left: 40px;
+  margin-left: 40px;
  
  }
  #first1, #first2, #first3, #first4{
@@ -311,7 +314,9 @@ margin-left: 240px;
   left: -200vw;
   
  }
- 
+                                /* -----ANIMATION DES COEURS-----*/
+                                 /* -----ANIMATION DES COEURS-----*/
+                                  /* -----ANIMATION DES COEURS-----*/
  /* Valeur avant le check */
  [for=toggle-heart],
  [for=toggle-heart2],
@@ -354,7 +359,7 @@ margin-left: 240px;
    background: linear-gradient(184deg, #9356dc 0%, #ff79da 100%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   /* background-clip: text; */
+   
  }
  
  
@@ -362,7 +367,7 @@ margin-left: 240px;
      cursor: default;
  }
  
- 
+  /* -----DEBUT FOOTER PAGE D'ACCUEIL-----*/
  #sec-ft{
      width: 670px;
      height: 200px;
@@ -395,14 +400,14 @@ margin-left: 240px;
  }
  #list2 p{
      margin-left: 2px;
+     line-height: 2px;
     
  }
+  /* -----FIN FOOTER PAGE D'ACCUEIL-----*/
  
  
- 
- /* -----les menus version mobile-----*/
- 
- /* -----mise en page et header-----*/
+                    /* -----les menus version mobile-----*/
+                   /* -----mise en page et header-----*/
  
  .body1 {
   font-family: 'Roboto';
@@ -413,36 +418,26 @@ margin-left: 240px;
  .fa-arrow-left:before {
    content: "\f060";
    color: black;
-    
  }
 
  .header2 h1 {
-    
    font-family: 'Shrikhand';
    font-size: 2.3em;
    right: 120px;
    left: 0px;
    margin-left: 400px;
-
-   
  }
  .header2 a {
-   
    left: 1.5rem;
    font-size: x-large;
    position: absolute;
-   
-   
  }
  .header2 {
    display: flex;
    align-items: center;
-   
-  
  }
  
  /* -----fin de la mise en page et header-----*/
- 
  /* -----mise en page de menu + images + titre-----*/
  
  
@@ -456,7 +451,6 @@ margin-left: 240px;
      width: 603px;
      height: 280px;
      object-fit: cover;
- 
  }
  
  .title{
@@ -589,11 +583,11 @@ margin-left: 240px;
    margin-left: 10px;
    height: 90px; 
  }
- 
  /* -----fin menu déssert-----*/
  
  
- /* -----animations affichage progressif-----*/
+                       /* -----animations affichage progressif-----*/
+                       /* -----animations affichage progressif-----*/
      
  #menu-entree {
  
@@ -711,11 +705,12 @@ margin-left: 240px;
        opacity: 1;
      }
    }
- /* -----Fin animations affichage progressif-----*/
-  
+                    /* -----Fin animations affichage progressif-----*/
+                     /* -----Fin animations affichage progressif-----*/
  
+
+
  /* ----mise en page de menu-bulle------*/
- 
  
  .menu-bulle{
    animation: anime-menu-bulle 1s both;
@@ -724,12 +719,9 @@ margin-left: 240px;
    display: flex;
    height: 4rem;
    box-shadow: 5px 5px 5px rgb(0 0 0 / 15%);
-   
    width: 100%;
- 
    overflow: hidden;
    position: relative;
- 
  }
  li {
   display: list-item;
@@ -766,7 +758,9 @@ margin-left: 240px;
     }
  
     /* ----fin mise en page de menu-bulle------*/
+
  
+
     .selection-plat {
       position: absolute;
       top: 0;
@@ -815,7 +809,8 @@ margin-left: 240px;
   .selection-plat:checked + .platcheck {
       margin-right: 0;
   }
-
+/* -----CROIX DE VALIDATION-----*/
+ /* -----CROIX DE VALIDATION-----*/
   .platcheck {
       background-color: #99e2d0;
       border-radius: 0 15px 15px 0px;
@@ -850,7 +845,7 @@ margin-left: 240px;
   }
   
    
- /*----  btn cmd------*/
+ /*----  btn COMMANDER------*/
  
      .btn {
      border-radius: 30px;
@@ -906,11 +901,14 @@ margin-left: 240px;
  }
  #list33 p{
      margin-left: 2px;
+     line-height: 2px;
     
  }
-       /*-----fin footer-----*/
+       /*-----fin footer PAGE DES MENUS-----*/
 }
-/* --------------------version desktop---------------------*/
+
+
+/* --------------------version desktop page d'accueil---------------------*/
 /* --------------------version desktop---------------------*/
  /* --------------------version desktop---------------------*/
  @media all and (min-width: 1024px){
@@ -1065,7 +1063,7 @@ form{
  color: white;
  border: none;
  box-shadow: 3px 3px 6px rgb(173, 167, 167);
- 
+  
 }
 .explo:hover {
   background: linear-gradient(#ff93e1, #a16be0);
@@ -1321,7 +1319,6 @@ padding-bottom: 0px;
 text-decoration: none;
 color:white;
 
-
 }
 #sec-ft li{
 
@@ -1342,12 +1339,13 @@ margin-right: 10px;
 }
 #list1{
 display: flex;
-margin-top: 15px;
+margin-top: 32px;
 }
 
 
 #list2{
 display: flex;
+margin-bottom: 35px;
 }
 #list2 p{
 margin-right: 10px;
@@ -1541,7 +1539,8 @@ font-size: 1.3em;
 
 /* -----fin menu déssert-----*/
 
- /* -----animations affichage progressif-----*/
+            /* -----animations affichage progressif-----*/
+             /* -----animations affichage progressif-----*/
      
  #menu-entree {
  
@@ -1660,6 +1659,7 @@ font-size: 1.3em;
     opacity: 1;
   }
 }
+/* -----Fin animations affichage progressif-----*/
 /* -----Fin animations affichage progressif-----*/
 
 
@@ -1796,7 +1796,7 @@ input {
    line-height: 1;
 }
 
-/*----  btn cmd------*/
+/*----  btn COMMANDER------*/
  
 .btn {
 border-radius: 30px;
@@ -2232,15 +2232,11 @@ transition: transform 500ms cubic-bezier(0.32, 0, 0.07, 1);
 background: linear-gradient(184deg, #9356dc 0%, #ff79da 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
-/* background-clip: text; */
 }
-
-
 label {
 cursor: default;
 }
-
-
+/* -----DEBUT FOOTER PAGE D'ACCUEIL-----*/
 #sec-ft{
 width: 768px;
 height: 200px;
@@ -2272,11 +2268,12 @@ margin-right: 10px;
 }
 #list2 p{
 margin-left: 2px;
-
+line-height: 2px;
 }
 
 /* --------------------fin page d'accueil(tablette)--------------------*/
 
+/* --------------------début page des menus (tablette)---------------------*/
 /* --------------------début page des menus (tablette)---------------------*/
 
 .body2 {
@@ -2593,12 +2590,9 @@ border-radius: 15px;
 display: flex;
 height: 4rem;
 box-shadow: 5px 5px 5px rgb(0 0 0 / 15%);
-
 width: 100%;
-
 overflow: hidden;
 position: relative;
-
 }
 li {
 display: list-item;
@@ -2627,8 +2621,6 @@ text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
-
-
 .menu-bulle-prix {
 align-self: flex-end;
 padding: 0 1.5rem 0.8rem 0.6rem;
@@ -2647,7 +2639,7 @@ padding: 0 1.5rem 0.8rem 0.6rem;
    z-index: 2;
    opacity: 0;
 }
-input[type="radio"] {
+ input[type="radio"] {
    background-color: initial;
    cursor: default;
    appearance: auto;
@@ -2775,7 +2767,7 @@ input {
 }
 #list33 p{
   margin-left: 2px;
- 
+  line-height: 2px;
 }
     /*-----fin footer-----*/
 }
