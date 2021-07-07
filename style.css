@@ -1546,92 +1546,48 @@ font-size: 1.3em;
   animation-delay: 1s;
 }
 
-.menu-bulle1{
-  animation : menu-load 1s ease-in-out both;
-  animation-delay: 1s;   
-}
-.menu-bulle2{
+.pop-menu-entree li:nth-child(1) {
   animation : menu-load 2s ease-in-out both;
-  animation-delay: 2s;   
-}
-.menu-bulle3{
-  animation : menu-load 3s ease-in-out both;
-  animation-delay: 3s;   
-}
-.menu-bulle4{
-  animation : menu-load 1s ease-in-out both;
-  animation-delay: 1s;   
-}
-.menu-bulle5{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 2s;   
-}
+     animation-delay: 1s; 
+}  
+.pop-menu-entree li:nth-child(2) {
+animation : menu-load 2s ease-in-out both;
+     animation-delay: 2s; 
+}  
+.pop-menu-entree li:nth-child(3) {
+animation : menu-load 2s ease-in-out both;
+     animation-delay: 3s; 
+}  
+.pop-menu-entree li:nth-child(4) {
+animation : menu-load 2s ease-in-out both;
+     animation-delay: 4s; 
+}  
 
-.menu-bulle6{
-  animation : menu-load 3s ease-in-out both;
-  animation-delay: 3s;  
-}
+.pop-menu-plat-principal li:nth-child(1) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 1s; 
+}  
+.pop-menu-plat-principal li:nth-child(2) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 2s; 
+}  
+.pop-menu-plat-principal li:nth-child(3) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 3s; 
+}  
 
-.menu-bulle7{
-  animation : menu-load 1s both;
-  animation-delay: 1s;   
-}
-.menu-bulle8{
-  animation : menu-load 2s both;
-  animation-delay: 2s;   
-}
-.menu-bulle9{
-  animation : menu-load 3s ease-in-out both;
-  animation-delay: 3s;   
-}
-.menu-bulle10{
-  animation : menu-load 3s ease-in-out both;
-  animation-delay: 4s;   
-}
-.menu-bulle11{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 1s;   
-}
-.menu-bulle12{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 2s;   
-}
-.menu-bulle13{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 3s;   
-}
-.menu-bulle14{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 4s;   
-}
-.menu-bulle15{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 1s;   
-}
-
-.menu-bulle16{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 2s;  
-}
-
-.menu-bulle17{
-  animation : menu-load 2s both;
-  animation-delay: 3s;   
-}
-.menu-bulle18{
-  animation : menu-load 2s both;
-  animation-delay: 1s;   
-}
-.menu-bulle19{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 2s;   
-
-}
-.menu-bulle20{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 3s;   
-
-}
+.pop-menu-dessert li:nth-child(1) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 1s; 
+}  
+.pop-menu-dessert li:nth-child(2) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 2s; 
+}  
+.pop-menu-dessert li:nth-child(3) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 3s; 
+}  
 
   @-webkit-keyframes menu-load {
   from{
@@ -2468,89 +2424,48 @@ height: 90px;
   animation-delay: 1s;
 }
 
-.menu-bulle1{
+.pop-menu-entree li:nth-child(1) {
   animation : menu-load 2s ease-in-out both;
-  animation-delay: 1s;   
-}
-.menu-bulle2{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 2s;   
-}
-.menu-bulle3{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 3s;   
-}
-.menu-bulle4{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 1s;   
-}
-.menu-bulle5{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 2s;   
-}
+     animation-delay: 1s; 
+}  
+.pop-menu-entree li:nth-child(2) {
+animation : menu-load 2s ease-in-out both;
+     animation-delay: 2s; 
+}  
+.pop-menu-entree li:nth-child(3) {
+animation : menu-load 2s ease-in-out both;
+     animation-delay: 3s; 
+}  
+.pop-menu-entree li:nth-child(4) {
+animation : menu-load 2s ease-in-out both;
+     animation-delay: 4s; 
+}  
 
-.menu-bulle6{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 3s;  
-}
+.pop-menu-plat-principal li:nth-child(1) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 1s; 
+}  
+.pop-menu-plat-principal li:nth-child(2) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 2s; 
+}  
+.pop-menu-plat-principal li:nth-child(3) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 3s; 
+}  
 
-.menu-bulle7{
-  animation : menu-load 2s both;
-  animation-delay: 1s;   
-}
-.menu-bulle8{
-  animation : menu-load 2s both;
-  animation-delay: 2s;   
-}
-.menu-bulle9{
-  animation : menu-load 2s ease-in-out both;
-  animation-delay: 3s;   
-
-}
-.menu-bulle11{
- animation : menu-load 2s ease-in-out both;
- animation-delay: 1s;   
-}
-.menu-bulle12{
- animation : menu-load 2s ease-in-out both;
- animation-delay: 2s;   
-}
-.menu-bulle13{
- animation : menu-load 2s ease-in-out both;
- animation-delay: 3s;   
-}
-.menu-bulle14{
- animation : menu-load 2s ease-in-out both;
- animation-delay: 4s;   
-}
-.menu-bulle15{
- animation : menu-load 2s ease-in-out both;
- animation-delay: 1s;   
-}
-
-.menu-bulle16{
- animation : menu-load 2s ease-in-out both;
- animation-delay: 2s;  
-}
-
-.menu-bulle17{
- animation : menu-load 2s both;
- animation-delay: 3s;   
-}
-.menu-bulle18{
- animation : menu-load 2s both;
- animation-delay: 1s;   
-}
-.menu-bulle19{
- animation : menu-load 2s ease-in-out both;
- animation-delay: 2s;   
-
-}
-.menu-bulle20{
- animation : menu-load 2s ease-in-out both;
- animation-delay: 3s;   
-
-}
+.pop-menu-dessert li:nth-child(1) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 1s; 
+}  
+.pop-menu-dessert li:nth-child(2) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 2s; 
+}  
+.pop-menu-dessert li:nth-child(3) {
+animation : menu-load 2s ease-in-out both;
+   animation-delay: 3s; 
+}  
 
 
 
